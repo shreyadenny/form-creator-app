@@ -8,7 +8,7 @@ function QuestionForm() {
   const [formDescription, setFormDescription] = useState('');
   const [showQuestionOptions, setShowQuestionOptions] = useState(false);
   const [questionText, setQuestionText] = useState('');
-  const [choices, setChoices] = useState([]); // Array to hold the choices
+  const [choices, setChoices] = useState([]); 
   const deleteChoice = (index) => {
     const updatedChoices = [...choices];
     updatedChoices.splice(index, 1);
@@ -21,7 +21,7 @@ function QuestionForm() {
   };
 
   const addChoice = () => {
-    setChoices([...choices, '']); // Add an empty choice
+    setChoices([...choices, '']); 
   };
 
   const updateChoice = (index, value) => {
@@ -82,7 +82,6 @@ function QuestionForm() {
                 </div>
               ))}
               <button onClick={addChoice}>Add Choice</button>
-              {/* Add required/optional toggle */}
               <label>
                 <input type="checkbox" /> Required
               </label>
@@ -91,7 +90,6 @@ function QuestionForm() {
           {questionType !== 'multiple-choice' && (
             <div>
               <FormField type={questionType} />
-              {/* Add required/optional toggle */}
               <label>
                 <input type="checkbox" /> Required
               </label>
