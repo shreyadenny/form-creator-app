@@ -1,6 +1,6 @@
 import React from 'react';
 import QuestionForm from '../components/QuestionForm';
-
+import './CreateForm.css'
 function CreateForm() {
   return (
     <div>

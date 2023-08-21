@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FormField from './FormField';
+import './QuestionForm.css'
 
 function QuestionForm() {
   const [questionType, setQuestionType] = useState('');
@@ -30,7 +31,7 @@ function QuestionForm() {
   };
 
   return (
-    <div>
+    <div className='form-box'>
       <div>
         <label htmlFor="formTitle">Form Title:</label>
         <input
