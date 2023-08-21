@@ -6,9 +6,7 @@ function FormField({ type }) {
   } else if (type === 'textarea') {
     return <textarea />;
   } else if (type === 'multiple-choice') {
-    // Render multiple choice options
   } else if (type === 'checkbox') {
-    // Render checkboxes
   }
 
   return null;

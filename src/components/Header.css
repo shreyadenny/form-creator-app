@@ -5,7 +5,7 @@
 .Nav{
     grid-area: nav;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(30, auto);
     align-items: center;
     justify-items: center;
     font-size: 25px;
