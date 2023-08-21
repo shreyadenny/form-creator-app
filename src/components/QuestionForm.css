@@ -2,11 +2,9 @@
     min-width: 100%;
     height: 100vh;
     border: dotted #f55a00 1vw;
-    /* border: 1px solid red; */
     margin: 0vw;
     padding: 2vw;
     position: relative;
-    /* position:relative for .prevBtn and .nextBtn position:absolute; */
   }
   .form-box label{
     font-size: 35px;
